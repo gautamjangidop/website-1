@@ -1,14 +1,14 @@
-# COVID Tracking Project
+### COVID-19 Tracking Project
 
-The COVID Tracking Project collects information from 50 U.S. states, the District of Columbia, and 5 other U.S. territories to provide the most comprehensive testing data we can collect for the novel coronavirus, SARS-CoV-2.
+The COVID-19 Tracking Project collects information from 50 U.S. states, the District of Columbia, and 5 other U.S. territories to provide the most comprehensive testing data we can collect for the novel coronavirus, SARS-CoV-2.
 
 This repository is for the project's **website**: https://covidtracking.com/.
 
-## Documentation
+### Documentation
 
 Additional documentation can be found [at our documentation and Storybook website](https://covid19tracking.github.io/website-docs).
 
-## Development
+### Development
 
 The website is built on [GatsbyJS](https://www.gatsbyjs.org/). If you are not familiar with Gatsby, we suggest checking out their [excellent documentation](hhttps://www.gatsbyjs.org/docs).
 
@@ -54,7 +54,7 @@ Components live in `src/components` and are organized as follows:
 - `/pages` - Components that are only used once or have a defined scope to a particular part of the website (i.e. `StateGrade` has to do with states) belong in their respective directory in `/pages`
 - `/utils` - Utilities. (If a particular component doesn't have any associated styles, there's a good chance it's a utility.)
 
-## Testing
+### Testing
 
 [![Coverage Status](https://coveralls.io/repos/github/COVID19Tracking/website/badge.svg?branch=master)](https://coveralls.io/github/COVID19Tracking/website?branch=master)
 
